@@ -1,4 +1,4 @@
-# Andrew Grant 1/31/25
+# Andrew Grant 1/31/26
 # Write a program that iterates from 1 to 100 and determines if each
 # number is prime or not. Show all numbers from 1 to 100 and must be
 # extensible to any postive integer, don't hardcode 100.
@@ -28,4 +28,5 @@ while (iNum <= iMaxNum):
     elif (bPrime == False):
         print(iNum, "is not prime")
     #Increments iNum every iteration of loop
+
     iNum += 1
